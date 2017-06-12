@@ -14,7 +14,8 @@
     "Callback",
     "Promise",
     "ES6",
-    "piscosour"
+    "piscosour",
+    "piscosour-recipe"
   ],
   "author": "QPA",
   "license": "Apache-2.0",
