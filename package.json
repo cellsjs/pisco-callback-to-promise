@@ -1,6 +1,6 @@
 {
   "name": "pisco-callback-to-promise",
-  "version": "0.1.8-beta.0",
+  "version": "0.1.9-beta.0",
   "description": "Pisco library to work with callback functions making a promise API",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@globaldevtools.bbva.com:7999/ctool/pisco-callback-to-promise.git"
+    "url": "git@github.com:cellsjs/pisco-callback-to-promise.git"
   },
   "keywords": [
     "Callback",
