@@ -20,7 +20,7 @@ describe('Testing the callbacks to promises', () => {
     pctp.c2p(exec, 'chmod', '755 noFile.txt')
       .catch((error) => {
         expect(error).not.equal(null);
-        expect(error.toString()).contain('Command failed: chmod');
+        expect(error.error.toString()).contain('Command failed: chmod');
         done();
       });
   });

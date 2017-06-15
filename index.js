@@ -7,7 +7,7 @@ module.exports = {
       fn.apply(null, args.concat(function(err) {
         var resultArgs = [].slice.call(arguments, 1);
         if (err) {
-          reject(err);
+          reject({error: err, std: resultArgs});
         } else {
           resolve.apply(null, resultArgs);
         }
