@@ -12,6 +12,6 @@ pctp.c2p(childProcess.exec, 'pwd')
     console.log(stdout);
   })
   .then(() => {...})
-  .catch((error) => {...});
+  .catch((error) => pctp.logError(error, cb));
 });
 ```
