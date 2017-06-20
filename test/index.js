@@ -21,6 +21,7 @@ describe('Testing the callbacks to promises', () => {
       .catch((error) => {
         expect(error).not.equal(null);
         expect(error.error.toString()).contain('Command failed: chmod');
+        pctp.logError(error);
         done();
       });
   });

@@ -14,9 +14,10 @@ module.exports = {
       }));
     });
   },
-  logError(err, done) {
-    console.log('\n---------------\nstdout:\n---------------\n', err.std[0]);
-    console.log('\n---------------\nstderr:\n---------------\n', err.std[1]);
-    done(err.error);
+  logError(err) {
+    if (err.std) {
+      console.log('\n---------------\nstdout:\n---------------\n', err.std[0]);
+      console.log('\n---------------\nstderr:\n---------------\n', err.std[1]);
+    }
   }
 };
