@@ -1,6 +1,6 @@
 {
   "name": "pisco-callback-to-promise",
-  "version": "0.1.11-beta.0",
+  "version": "0.1.11-alpha.0",
   "description": "Pisco library to work with callback functions making a promise API",
   "main": "index.js",
   "scripts": {
